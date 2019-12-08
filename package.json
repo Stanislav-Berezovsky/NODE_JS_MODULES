@@ -1,0 +1,28 @@
+{
+  "name": "modules_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "task1": "nodemon src/task1/index.js",
+    "task2": "nodemon --exec babel-node src/task2/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislav-Berezovsky/NODE_JS_MODULES.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanislav-Berezovsky/NODE_JS_MODULES/issues"
+  },
+  "homepage": "https://github.com/Stanislav-Berezovsky/NODE_JS_MODULES#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "csvtojson": "^2.0.10",
+    "nodemon": "^2.0.1"
+  }
+}
